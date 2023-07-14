@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link href="/dist/output.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans&family=Outfit:wght@100;200;300;400;500&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@700&display=swap" rel="stylesheet">
+  <title>Frontend Mentor | E-commerce product page</title>
+<style>
+  body {
+    font-family: 'Kumbh Sans', sans-serif;
+  }
+</style>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <div class="flex items-center m-4 justify-around">
+      <!-- Menu Items -->
+      <div class="flex items-center space-x-9 text-Small">
+        <img src="/images/logo.svg" alt="" class="pr-5">
+        <a href="" class="text-darkGrayishBlue hover:text-veryDarkBlue">Collections</a>
+        <a href="" class="text-darkGrayishBlue hover:text-veryDarkBlue">Men</a>
+        <a href="" class="text-darkGrayishBlue hover:text-veryDarkBlue">Women</a>
+        <a href="" class="text-darkGrayishBlue hover:text-veryDarkBlue">About</a>
+        <a href="" class="text-darkGrayishBlue hover:text-veryDarkBlue pr-64">Contact</a>
+        
+        <a href=""><img src="/images/icon-cart.svg" alt="Cart Icon" class="pl-28 pr-4"></a><img src="/images/image-avatar.png" alt="DP" class="rounded-full justify hover:border-Orange cursor-pointer" width="50" height="50">
+      </div>
+      </div>
+
+  <hr class="border-gray-900 mx-80">
+
+      <!-- Shoes Images -->
+    <div class="flex">
+      <div class="flex flex-col w-1/2 ">
+      <div class="">
+       <img src="/images/image-product-1.jpg" alt="Picture of Shoes" class="mt-24 rounded-xl h-2/3">
+      </div>
+
+      <div class="flex flex-row justify-between flex-wrap mt-6 w-2/3">
+        <button>
+        <img src="/images/image-product-1-thumbnail.jpg" alt="" class="rounded-lg w-20 h-20 border-Orange hover:opacity-50 focus:border-8"></button>
+        <button><img src="/images/image-product-2-thumbnail.jpg" alt="" class="rounded-lg w-20 h-20 border-Orange hover:opacity-50 focus:border-8"></button>
+        <button><img src="/images/image-product-3-thumbnail.jpg" alt="" class="rounded-lg w-20 h-20 border-Orange hover:opacity-50 focus:border-8"></button>
+        <button><img src="/images/image-product-4-thumbnail.jpg" alt="" class="rounded-lg w-20 h-20 border-Orange hover:opacity-50 focus:border-8"></button>
+      </div>
+    </div>
+    
+      <!-- Rightside Text -->
+    <div class="flex flex-col mx-32 my-32">
+      <p class="text-Orange font-bold text-sm tracking-widest">SNEAKER COMPANY</p>
+      <p class="text-veryDarkBlue text-Large font-black mt-5 leading-none"><strong>Fall Limited Edition Sneakers</strong></p>
+      <div class="text-darkGrayishBlue mt-10 text-base">These low-profile sneakers are your perfect casual wear companion. Featuring a durable rubber outer sole, they’ll withstand everything the weather can offer.</div>
+
+      <!-- Pricing -->
+      <div class="text-veryDarkBlue flex text-3xl font-black mt-7"><b>$125.00</b><div class="text-base text-Orange w-12 flex items-center h-7 ml-4 mt-1 justify-center bg-paleOrange font-bold rounded-md">50%</div></div>
+      <div class="text-grayishBlue font-black line-through mt-1">$250.00</div>
+
+      <!-- Quantity Button -->
+      <div class="flex mt-9 flex-row">
+      <div class="bg-lightGrayishBlue mr-4 w-40 rounded-xl flex font-bold items-center justify-between px-3"><button class="text-Orange text-3xl h-11">-</button><div>0</div><button class="text-Orange text-3xl h-11">+</button></div>
+      
+      <!-- Add to Cart Button -->
+      <button class="flex bg-Orange py-3.5 w-small text-white rounded-xl font-bold items-center shadow-xl px-16 border-2 border-Orange shadow-Orange/30 justify-around"><svg xmlns="http://www.w3.org/2000/svg" fill="#fff" viewBox="0 0 24 24" class="w-7 h-5">
+        <path d="M20.925 3.641H3.863L3.61.816A.896.896 0 0 0 2.717 0H.897a.896.896 0 1 0 0 1.792h1l1.031 11.483c.073.828.52 1.726 1.291 2.336C2.83 17.385 4.099 20 6.359 20c1.875 0 3.197-1.87 2.554-3.642h4.905c-.642 1.77.677 3.642 2.555 3.642a2.72 2.72 0 0 0 2.717-2.717 2.72 2.72 0 0 0-2.717-2.717H6.365c-.681 0-1.274-.41-1.53-1.009l14.321-.842a.896.896 0 0 0 .817-.677l1.821-7.283a.897.897 0 0 0-.87-1.114ZM6.358 18.208a.926.926 0 0 1 0-1.85.926.926 0 0 1 0 1.85Zm10.015 0a.926.926 0 0 1 0-1.85.926.926 0 0 1 0 1.85Zm2.021-7.243-13.8.81-.57-6.341h15.753l-1.383 5.53Z" />
+      </svg>Add to cart
+    </button>
+  </div>
+      
+  </div>
+    </div>
+  
+</div>
+</div>
+</body>
+</html>
