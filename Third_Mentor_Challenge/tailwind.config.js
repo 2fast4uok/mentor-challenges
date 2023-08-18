@@ -24,6 +24,9 @@ module.exports = {
         Small: '14.8px',
         Large: '44px',
       },
+      margin: {
+       SMALL: '360px',
+      },
     },
   },
   plugins: [],
